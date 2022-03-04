@@ -1,33 +1,14 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Button, Htag, Paragraph, Rating, Tag } from "../components";
+import { Layout } from "../layout/Layout";
 
 export default function Home(): JSX.Element {
   const [rating, setRating] = useState<number>(4);
 
-  const [counter, setCounter] = useState<number>(0);
-
-  useEffect(() => {
-    console.log("counter" + counter);
-
-    return function cleanUp() {
-      console.log("unmount");
-    };
-  }, [counter]);
-
-  useEffect(() => {
-    if (counter) {
-      console.log("Mounted");
-    }
-  }, []);
-
   return (
-    <>
-      <Htag tag="h1">{counter}</Htag>
-      <Button
-        appearance="primary"
-        arrow="right"
-        onClick={() => setCounter((x) => x + 1)}
-      >
+    <Layout>
+      <Htag tag="h1">text</Htag>
+      <Button appearance="primary" arrow="right">
         jijiji
       </Button>
       <Button appearance="ghost" arrow="right">
@@ -71,6 +52,6 @@ export default function Home(): JSX.Element {
       <Tag size="m" color="primary">
         tag
       </Tag>
-    </>
+    </Layout>
   );
 }
