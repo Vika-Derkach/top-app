@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
-import { Button, Htag, Paragraph, Tag } from "../components";
+import { Button, Htag, Paragraph, Rating, Tag } from "../components";
 
 export default function Home(): JSX.Element {
+  const [rating, setRating] = useState<number>(4);
+
   const [counter, setCounter] = useState<number>(0);
 
   useEffect(() => {
@@ -13,7 +15,9 @@ export default function Home(): JSX.Element {
   }, [counter]);
 
   useEffect(() => {
-    console.log("Mounted");
+    if (counter) {
+      console.log("Mounted");
+    }
   }, []);
 
   return (
@@ -29,6 +33,7 @@ export default function Home(): JSX.Element {
       <Button appearance="ghost" arrow="right">
         jijiji
       </Button>
+      <Rating rating={rating} isEditable={true} setRating={setRating} />
       <Paragraph size="l">
         Студенты освоят не только hard skills, необходимые для работы
         веб-дизайнером, но и soft skills — навыки, которые позволят эффективно
