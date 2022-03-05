@@ -1,15 +1,15 @@
+import cn from "classnames";
+import { format } from "date-fns";
 import React from "react";
 import styles from "./Footer.module.css";
 import { FooterProps } from "./Footer.props";
 
-export const Footer = ({ ...props }: FooterProps): JSX.Element => {
+export const Footer = ({ className, ...props }: FooterProps): JSX.Element => {
   return (
-    <div {...props}>
-      <div className={styles.footer}>
-        <div>OwlTop © 2020 - 2021 Все права защищены</div>
-        <div>Пользовательское соглашение</div>
-        <div>Политика конфиденциальности</div>
-      </div>
-    </div>
+    <footer className={cn(className, styles.footer)} {...props}>
+      <div>OwlTop © 2020 - {format(new Date(), "yyyy")} Все права защищены</div>
+      <a href="#">Пользовательское соглашение</a>
+      <a href="#">Политика конфиденциальности</a>
+    </footer>
   );
 };
