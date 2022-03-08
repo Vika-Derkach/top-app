@@ -1,8 +1,11 @@
+import { GetStaticProps } from "next";
 import { useState } from "react";
+import { api } from "../api/api";
 import { Button, Htag, Paragraph, Rating, Tag } from "../components";
+import { MenuItem } from "../interfaces/menu.interface";
 import { withLayout } from "../layout/Layout";
 
-function Home(): JSX.Element {
+function Home({ menu, firstCategory }: HomeProps): JSX.Element {
   const [rating, setRating] = useState<number>(4);
 
   return (
@@ -52,8 +55,26 @@ function Home(): JSX.Element {
       <Tag size="m" color="primary">
         tag
       </Tag>
+      {menu.map((m) => (
+        <li key={m._id.secondCategory}>{m._id.secondCategory}</li>
+      ))}
     </>
   );
 }
 
 export default withLayout(Home);
+
+export const getStaticProps: GetStaticProps<HomeProps> = async () => {
+  const firstCategory = 0;
+  const menu = await api<MenuItem[]>("menu");
+  console.log(menu);
+
+  return {
+    props: { menu, firstCategory },
+  };
+};
+
+interface HomeProps extends Record<string, unknown> {
+  menu: MenuItem[];
+  firstCategory: number;
+}
