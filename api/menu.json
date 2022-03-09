@@ -6,12 +6,6 @@
       },
       "pages": [
         {
-          "alias": "big-data",
-          "title": "Курсы по Big Data",
-          "_id": "606e9acae35aa0914a4ea834",
-          "category": "Big Data"
-        },
-        {
           "alias": "data-science",
           "title": "Курсы по Data Science",
           "_id": "606e9b4ce35aa002e74ea835",
