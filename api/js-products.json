@@ -1,0 +1,579 @@
+{
+  "pageProps": [
+    {
+      "_id": "611d6b3c468b552e262dc533",
+      "categories": ["React.js", "JavaScript", "Программирование"],
+      "tags": ["онлайн-вебинары по вечерам и практические задания"],
+      "title": "React: библиотека фронтенд-разработки №1",
+      "link": "https://go.acstat.com/747438876825c010",
+      "image": "/uploads/2021-08-18/netology_white.png",
+      "characteristics": [
+        {
+          "value": "Нетология",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "Нужно знание js",
+          "name": "Сложность"
+        },
+        {
+          "value": "1.5 месяца",
+          "name": "Длительность"
+        }
+      ],
+      "description": "Создайте более 20 вариантов интерактивных интерфейсов во время обучения. Добавьте React в своё резюме и получите новые карьерные возможности",
+      "initialRating": 5,
+      "price": 14630,
+      "credit": 1463,
+      "oldPrice": 19900,
+      "createdAt": "2021-08-18T20:19:08.208Z",
+      "updatedAt": "2021-11-10T19:10:41.403Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279d71468b5530d32effef",
+      "categories": ["JavaScript", "Node.js", "React.js", "Программирование"],
+      "tags": [
+        "Занятия в группе с преподавателем",
+        "Онлайн-лекции и вебинары",
+        "Видеозаписи занятий"
+      ],
+      "title": "Факультет Fullstack JavaScript",
+      "initialRating": 5,
+      "image": "/uploads/2021-08-26/gb.png",
+      "characteristics": [
+        {
+          "value": "GeekBrains",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "15 месяцев",
+          "name": "Длительность"
+        }
+      ],
+      "price": 134700,
+      "oldPrice": 150000,
+      "credit": 4989,
+      "description": "Освойте с нуля язык программирования JavaScript, чтобы стать Fullstack-разработчиком. Вы научитесь создавать сайты, мобильные приложения и высоконагруженные сервисы.",
+      "link": "https://go.acstat.com/d180f188fdbdc0c0",
+      "createdAt": "2021-08-26T13:56:01.878Z",
+      "updatedAt": "2021-11-10T19:10:11.265Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "611d6b8c468b55dc5c2dc539",
+      "categories": ["React.js", "JavaScript"],
+      "tags": ["10 уроков"],
+      "title": "ReactJS. Базовый курс",
+      "link": "https://go.acstat.com/f23d325145c5fd10",
+      "image": "/uploads/2021-08-18/gb.png",
+      "characteristics": [
+        {
+          "value": "GeekBrains",
+          "name": "Школа"
+        },
+        {
+          "value": "Сертификат",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "1 месяц",
+          "name": "Длительность"
+        }
+      ],
+      "initialRating": 4.9,
+      "description": "На курсе изучается ReactJS – популярная JаvaScript-библиотека для построения пользовательских интерфейсов, которую используют в Instagram, Airbnb, Ebay, Netflix, Yahoo. Студенты отработают новые знания в области профессиональной front-end разработки, научатся применять ReactJS в сочетании с библиотекой Redux. Познакомятся с инструментом для написания back-end части – NodeJS. Создадут и представят готовый программный продукт – собственную социальную сеть.",
+      "price": 13167,
+      "oldPrice": 19100,
+      "credit": 0,
+      "createdAt": "2021-08-18T20:20:28.492Z",
+      "updatedAt": "2021-09-11T15:54:41.489Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279cc9468b555e4e2eff96",
+      "categories": [
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "Программирование",
+        "Docker",
+        "NestJS",
+        "TypeScript"
+      ],
+      "tags": ["Вебинары, видеолекции, практические задания"],
+      "title": "Fullstack-разработчик на JavaScript",
+      "image": "/uploads/2021-08-26/netology_white.png",
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Нетология"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Диплом"
+        },
+        {
+          "name": "Сложность",
+          "value": "С нуля"
+        },
+        {
+          "name": "Длительность",
+          "value": "20 месяцев"
+        }
+      ],
+      "price": 118740,
+      "oldPrice": 139000,
+      "credit": 4947,
+      "initialRating": 4.9,
+      "link": "https://go.acstat.com/446b79e8bca631a0",
+      "description": "Научитесь программировать на JavaScript и TypeScript — сможете самостоятельно создавать сайты и веб-приложения. Освоите передовые технологии — React, Node.js, Docker, Express.js, Nest.js, Firebase, MongoDB",
+      "createdAt": "2021-08-26T13:53:13.483Z",
+      "updatedAt": "2022-02-22T17:59:27.906Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279d15468b5571962eff9d",
+      "categories": ["JavaScript", "Node.js", "Программирование", "TypeScript"],
+      "tags": ["портфолио"],
+      "title": "Backend-разработка на Node.js",
+      "price": 31500,
+      "oldPrice": 38500,
+      "credit": 3150,
+      "image": "/uploads/2021-08-26/netology_white.png",
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Нетология"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Диплом"
+        },
+        {
+          "name": "Сложность",
+          "value": "С нуля"
+        },
+        {
+          "name": "Длительность",
+          "value": "5 месяцев"
+        }
+      ],
+      "link": "https://go.acstat.com/6c58c15385585080",
+      "description": "\nСтаньте fullstack-разработчиком, зная только JavaScript. Технология Node.js позволит вам разрабатывать backend для веб-приложений самостоятельно, а язык программирования TypeScript расширит возможности JavaScript для ваших проектов",
+      "initialRating": 4.9,
+      "createdAt": "2021-08-26T13:54:29.491Z",
+      "updatedAt": "2022-02-22T10:07:24.315Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279dbf468b55c4192efff6",
+      "categories": ["JavaScript", "Node.js", "Программирование"],
+      "tags": ["6 уроков"],
+      "title": "Node.js",
+      "price": 18150,
+      "oldPrice": 24000,
+      "credit": 0,
+      "link": "https://go.acstat.com/079fb04161d08790",
+      "image": "/uploads/2021-08-26/gb.png",
+      "initialRating": 4.7,
+      "characteristics": [
+        {
+          "value": "GeekBrains",
+          "name": "Школа"
+        },
+        {
+          "value": "Сертификат",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "1 месяц",
+          "name": "Длительность"
+        }
+      ],
+      "description": "Курс познакомит со средой Node.js и научит работать с её основными модулями. Вы узнаете, что такое Node.js, поймёте как эта среда устроена и каким образом JavaScript может запускаться вне браузера. За время курса мы реализуем проект, задействующий основные модули Node.js.\nКакой бы путь для дальнейшей карьеры вы не выбрали - курс по Node.js позволит вам получить знания и навыки, которые пригодятся вам и на собеседовании, и на первой работе.",
+      "createdAt": "2021-08-26T13:57:19.647Z",
+      "updatedAt": "2021-11-10T19:10:19.007Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "611d6c68468b5509722dc567",
+      "categories": ["React.js", "JavaScript"],
+      "tags": ["Обучение на практике"],
+      "title": "JavaScript-фреймворк React.js",
+      "link": "https://go.acstat.com/273728c89cdfab20",
+      "image": "/uploads/2021-08-18/skillbox.png",
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "3 месяца",
+          "name": "Длительность"
+        }
+      ],
+      "description": "Расширьте свои профессиональные знания и навыки разработчика, научившись использовать в работе фреймворк React.js",
+      "price": 21000,
+      "oldPrice": 28000,
+      "credit": 1750,
+      "initialRating": 4.6,
+      "createdAt": "2021-08-18T20:24:08.807Z",
+      "updatedAt": "2021-09-11T15:54:56.884Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "612792c6468b556f732efbc8",
+      "categories": ["JavaScript", "React.js", "Программирование"],
+      "tags": [
+        "Программа из 12 курсов",
+        "4 проекта в портфолио",
+        "Помощь в трудоустройстве"
+      ],
+      "title": "Профессия Fullstack-разработчик на JavaScript",
+      "image": "/uploads/2021-08-26/skillbox.png",
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "12 месяцев",
+          "name": "Длительность"
+        }
+      ],
+      "price": 145440,
+      "oldPrice": 179000,
+      "credit": 4692,
+      "initialRating": 4.6,
+      "link": "https://go.acstat.com/5f26e043203a5d50",
+      "description": "Вы с нуля научитесь разрабатывать полноценные сайты и веб-приложения на JS и изучите один из фреймворков — Vue, React или Angular. Станете ценным сотрудником для любой IT-компании, поймёте, как получить повышение, и сможете зарабатывать больше.",
+      "createdAt": "2021-08-26T13:10:30.607Z",
+      "updatedAt": "2021-11-10T19:10:52.877Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279e7b468b55a4b42f000f",
+      "categories": ["JavaScript", "Программирование"],
+      "tags": [],
+      "title": "Продвинутый курс Javascript",
+      "price": 13167,
+      "link": "https://go.acstat.com/d241e6abd14caa10",
+      "image": "/uploads/2021-08-26/gb.png",
+      "characteristics": [
+        {
+          "value": "GeekBrains",
+          "name": "Школа"
+        },
+        {
+          "value": "Сертификат",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "1 месяц",
+          "name": "Длительность"
+        }
+      ],
+      "description": "Курс научит использовать максимум возможностей JavaScript, чтобы создавать функциональные, привлекательные сайты. Используя библиотеку JQuery, осваивая Ajax-запросы, начинающие разработчики сделают интерфейс своего интернет-магазина интерактивным.",
+      "credit": 0,
+      "oldPrice": 20000,
+      "initialRating": 4.6,
+      "createdAt": "2021-08-26T14:00:27.578Z",
+      "updatedAt": "2021-11-10T19:11:44.031Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "6127927d468b5578702efbb7",
+      "categories": ["JavaScript", "Программирование"],
+      "tags": [
+        "Онлайн в удобное время",
+        "Обучение на практике",
+        "Доступ к курсу навсегда"
+      ],
+      "title": "JavaScript",
+      "price": 41300,
+      "credit": 3442,
+      "initialRating": 4.5,
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "6 месяцев",
+          "name": "Длительность"
+        }
+      ],
+      "image": "/uploads/2021-08-26/skillbox.png",
+      "oldPrice": 59000,
+      "link": "https://go.acstat.com/c84a8acbba9d56f0",
+      "description": "Вы освоите язык JavaScript и его экосистему в теории и на практике, сможете создавать интерактивные сайты и вырасти как веб-разработчик.",
+      "createdAt": "2021-08-26T13:09:17.739Z",
+      "updatedAt": "2021-11-10T19:11:34.525Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279644468b5506542efd09",
+      "categories": ["JavaScript", "QA-тестирование"],
+      "tags": ["Онлайн в удобное время", "Программа из 5 курсов"],
+      "title": "Автоматизированное тестирование веб-приложений на JavaScript",
+      "price": 61700,
+      "credit": 5147,
+      "oldPrice": 77500,
+      "image": "/uploads/2021-08-26/skillbox.png",
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "12 месяцев",
+          "name": "Длительность"
+        }
+      ],
+      "description": "Вы научитесь программировать на JavaScript, работать с фреймворками Selenium Webdriver и Cypress, тестировать пользовательские интерфейсы и настраивать CI. Соберёте портфолио, сможете претендовать на повышение или работу в крупной IT-компании.",
+      "initialRating": 4.5,
+      "link": "https://go.acstat.com/c08a29d37fd74720",
+      "createdAt": "2021-08-26T13:25:24.243Z",
+      "updatedAt": "2022-01-11T19:48:08.602Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279b9a468b55a1d12eff6b",
+      "categories": ["JavaScript"],
+      "tags": ["Обучение на практике"],
+      "title": "Angular",
+      "price": 23100,
+      "oldPrice": 28500,
+      "credit": 1925,
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "3 месяца",
+          "name": "Длительность"
+        }
+      ],
+      "image": "/uploads/2021-08-26/skillbox.png",
+      "initialRating": 4.5,
+      "link": "https://go.acstat.com/534e210d18556920",
+      "description": "Вы научитесь создавать веб-приложения, используя популярный фреймворк Angular. Освоите лучшие практики и продвинутые подходы разработки приложений, продвинетесь по карьерной лестнице и сможете зарабатывать больше.",
+      "createdAt": "2021-08-26T13:48:10.414Z",
+      "updatedAt": "2021-09-11T16:04:27.583Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279bdf468b55ee402eff71",
+      "categories": ["JavaScript"],
+      "tags": ["Обучение на практике", "Доступ к курсу навсегда"],
+      "title": "Фреймворк Vue.js",
+      "price": 21000,
+      "oldPrice": 28000,
+      "credit": 1750,
+      "initialRating": 4.5,
+      "image": "/uploads/2021-08-26/skillbox.png",
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "3 месяца",
+          "name": "Длительность"
+        }
+      ],
+      "link": "https://go.acstat.com/d1a8f101b88bb1f0",
+      "description": "Курс для практикующих веб- и frontend-разработчиков. Расширьте свои компетенции, изучив трендовый фреймворк Vue.js",
+      "createdAt": "2021-08-26T13:49:19.185Z",
+      "updatedAt": "2021-09-11T16:04:37.732Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279e1b468b55255c2f0004",
+      "categories": ["JavaScript", "Программирование"],
+      "tags": ["Методички и практические занятия"],
+      "title": "Базовый курс JavaScript",
+      "price": 16500,
+      "oldPrice": 21000,
+      "credit": 0,
+      "image": "/uploads/2021-08-26/gb.png",
+      "initialRating": 4.5,
+      "characteristics": [
+        {
+          "value": "GeekBrains",
+          "name": "Школа"
+        },
+        {
+          "value": "Сертификат",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "1 месяц",
+          "name": "Длительность"
+        }
+      ],
+      "link": "https://go.acstat.com/34639dc88207bcc0",
+      "description": "Студенты знакомятся с основами JavaScript, позволяющего делать веб-страницы интерактивными. Учатся создавать динамические страницы и приложения, используя опыт HTML-верстки. Отрабатывают навык программирования на JavaScript, разрабатывая мини-игры.",
+      "createdAt": "2021-08-26T13:58:51.022Z",
+      "updatedAt": "2021-11-10T19:11:51.716Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279c5d468b55052b2eff8b",
+      "categories": ["JavaScript", "Node.js", "Программирование"],
+      "tags": ["Обучение на практике"],
+      "title": "Node.js",
+      "image": "/uploads/2021-08-26/skillbox.png",
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "3 месяца",
+          "name": "Длительность"
+        }
+      ],
+      "price": 16800,
+      "oldPrice": 22000,
+      "credit": 1399,
+      "link": "https://go.acstat.com/f59318f838a83e80",
+      "description": "Node.js расширяет возможности языка JavaScript и выступает в роли веб-сервера. С помощью этой платформы вы научитесь создавать полноценные веб-приложения и CLI-утилиты — и сможете вырасти как разработчик.",
+      "initialRating": 4.4,
+      "createdAt": "2021-08-26T13:51:25.150Z",
+      "updatedAt": "2021-11-10T19:09:52.393Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    }
+  ]
+}

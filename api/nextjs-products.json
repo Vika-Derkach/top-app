@@ -1,0 +1,54 @@
+{
+  "pageProps": [
+    {
+      "_id": "609e9b587b822877685b08c1",
+      "categories": [
+        "React.js",
+        "Программирование",
+        "Next.js",
+        "TypeScript",
+        "Frontend"
+      ],
+      "tags": [
+        "130 лекций",
+        "Полный пожизненный доступ",
+        "5 ресурсов для скачивания"
+      ],
+      "title": "React + Next.js - с нуля. TypeScript, Hooks, SSR и CSS Grid",
+      "link": "https://www.udemy.com/course/react-nextjs/?couponCode=7B3A798E0FA8579D9BA1",
+      "image": "/uploads/2021-11-17/512x512_0xac120003_16436951851631657843.png",
+      "initialRating": 5,
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Udemy"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Сертификат"
+        },
+        {
+          "name": "Сложность",
+          "value": "Необходимо знание JS, CSS и HTML"
+        },
+        {
+          "name": "Длительность",
+          "value": "19 часов"
+        }
+      ],
+      "oldPrice": 5490,
+      "price": 1090,
+      "credit": 0,
+      "description": "Полный курс по современному Frontend на React и Next.js. Всё от CSS Grid и TypeScript до React Hooks и SSR. Научитесь разрабатывать реальные приложения на NextJS и React, работать с React Hooks, понимать работу SSR, создавать SEO-friendly сайты и многое другое",
+      "advantages": "Обучение не на учебном, а на реальном, существующем проекте. В результате обучения вы получите знания и навыки, которые необходимы frontend разработчику",
+      "createdAt": "2021-05-14T15:46:32.755Z",
+      "updatedAt": "2022-02-22T18:07:00.552Z",
+      "__v": 0,
+      "disAdvantages": "Необходимо знание основ JS, CSS и HTML",
+      "html": "<h3>Чему вы научитесь</h3>\n<ol>\n \t<li>Разрабатывать реальные приложения на NextJS и React</li>\n \t<li>Работать с React Hooks</li>\n \t<li>Понимать работу SSR и создавать SEO-friendly сайтов</li>\n \t<li>Верстать макеты на CSS Grid</li>\n \t<li>Работать с анимацией и библиотекой Framer</li>\n \t<li>Обеспечивать доступности приложения и работать с ARIA атрибутами</li>\n \t<li>Подготавливать ваше приложение к production</li>\n \t<li>Работать с формами, их отправкой и валидацией</li>\n \t<li>Писать на TypeScript</li>\n \t<li>Собирать production проект и настраивать eslint, stylelint и отладку</li>\n</ol>",
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    }
+  ]
+}

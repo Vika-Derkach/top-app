@@ -1,0 +1,36 @@
+{
+  "pageProps": {
+    "_id": "61055589468b5529b92acf77",
+    "tags": ["Excel", "Google таблицы"],
+    "firstCategory": 0,
+    "secondCategory": "Аналитика",
+    "alias": "excel",
+    "title": "Курсы Excel",
+    "tagsTitle": "Навыки",
+    "category": "Excel",
+    "metaTitle": "Курсы EXCEL онлайн | Обучение Эксель онлайн (2022)",
+    "metaDescription": "Рейтинг лучших курсов Excel онлайн в 2022 году. Обучение работе в Эксель для начинающих. Топ платных и бесплатных онлайн курсов по Microsoft Excel",
+    "advantages": [],
+    "qas": [],
+    "addresses": [],
+    "createdAt": "2021-07-31T13:52:09.268Z",
+    "updatedAt": "2022-03-05T00:00:03.555Z",
+    "__v": 0,
+    "hh": {
+      "count": 84262,
+      "juniorSalary": 50000,
+      "middleSalary": 150000,
+      "seniorSalary": 250000,
+      "updatedAt": "2022-03-05T00:00:03.553Z",
+      "_id": "6222a803b9d5b038487ace9a"
+    },
+    "categoryOn": "Excel",
+    "blog": {
+      "h1": "Курсы Excel: обучение с нуля",
+      "metaTitle": "8 Лучших курсов по Excel онлайн | Обучение Эксель с нуля (2022)",
+      "metaDescription": "Рейтинг лучших курсов Excel онлайн в 2022 году. Обучение Excel для начинающих. Лучшие бесплатные и платные онлайн курсы по Эксель с дипломом и отзывами",
+      "views": 13,
+      "_id": "61fb05e277ddd78615c7cc8e"
+    }
+  }
+}

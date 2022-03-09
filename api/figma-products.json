@@ -1,0 +1,41 @@
+{
+  "pageProps": [
+    {
+      "_id": "6185632dd0b45d69650989ee",
+      "categories": ["Figma"],
+      "tags": [],
+      "title": "Figma с нуля до PRO",
+      "link": "https://go.acstat.com/1e6e53348941ef60",
+      "image": "/uploads/2021-11-05/skillbox.png",
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Сертификат",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "2 месяца",
+          "name": "Длительность"
+        }
+      ],
+      "initialRating": 4.8,
+      "description": "Вы освоите самую популярную программу для веб-дизайна на профессиональном уровне. Научитесь создавать интерактивные прототипы, передавать макеты разработчикам и экономить время на рутинных задачах.",
+      "credit": 1980,
+      "price": 23700,
+      "oldPrice": 31004,
+      "createdAt": "2021-11-05T17:00:29.316Z",
+      "updatedAt": "2022-01-15T17:28:22.322Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    }
+  ]
+}

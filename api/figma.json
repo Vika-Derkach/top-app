@@ -1,0 +1,36 @@
+{
+  "pageProps": {
+    "_id": "618562b8d0b45d823609894f",
+    "tags": ["графический дизайн"],
+    "firstCategory": 0,
+    "secondCategory": "Дизайн",
+    "alias": "figma",
+    "title": "Курсы Figma",
+    "category": "Figma",
+    "categoryOn": "дизайнера в Figma",
+    "tagsTitle": "Навыки",
+    "metaTitle": "Лучшие курсы по Figma онлайн | Обучение дизайну в Figma с нуля (2022)",
+    "metaDescription": "Рейтинг лучших курсов по Figme онлайн в 2022 году. Обучение дизайну в Fima для начинающих. Топ платных и бесплатных онлайн курсов по Фигме",
+    "advantages": [],
+    "qas": [],
+    "addresses": [],
+    "createdAt": "2021-11-05T16:58:32.460Z",
+    "updatedAt": "2022-03-08T00:00:06.294Z",
+    "__v": 0,
+    "hh": {
+      "count": 3140,
+      "juniorSalary": 85000,
+      "middleSalary": 215000,
+      "seniorSalary": 345000,
+      "updatedAt": "2022-03-08T00:00:06.290Z",
+      "_id": "62269c86b9d5b03848897a83"
+    },
+    "blog": {
+      "h1": "Курсы Figma: обучение с нуля",
+      "metaTitle": "Лучшие курсы Figma онлайн | Обучение Figma с нуля (2022)",
+      "metaDescription": "Рейтинг лучших курсов Figma онлайн в 2022 году. Обучение для начинающих. Лучшие бесплатные и платные онлайн курсы Figma с дипломом и отзывами",
+      "views": 13,
+      "_id": "61fea9e977ddd78615d70b56"
+    }
+  }
+}

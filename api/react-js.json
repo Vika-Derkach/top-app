@@ -1,0 +1,37 @@
+{
+  "pageProps": {
+    "_id": "609e98e77b822860385b08bc",
+    "tags": ["React.js"],
+    "firstCategory": 0,
+    "secondCategory": "Программирование",
+    "alias": "react-js",
+    "title": "Курсы React.js",
+    "category": "React.js",
+    "metaTitle": "Лучшие курсы React.js онлайн | Обучение React.js с нуля (2022)",
+    "metaDescription": "Рейтинг лучших курсов по React.js в 2022 году онлайн. Обучение React.js для начинающих. Топ платных и бесплатных онлайн курсов по React.js",
+    "tagsTitle": "Навыки",
+    "advantages": [],
+    "createdAt": "2021-05-14T15:36:07.157Z",
+    "updatedAt": "2022-03-09T00:00:01.939Z",
+    "__v": 0,
+    "hh": {
+      "count": 729,
+      "juniorSalary": 125000,
+      "middleSalary": 320000,
+      "seniorSalary": 510000,
+      "updatedAt": "2022-03-09T00:00:01.937Z",
+      "_id": "6227ee01b9d5b038488e6135"
+    },
+    "qas": [],
+    "addresses": [],
+    "seoText": "",
+    "categoryOn": "программиста React",
+    "blog": {
+      "h1": "Курсы React.js: обучение с нуля",
+      "metaTitle": "8 Лучших курсов React.js онлайн | Обучение с нуля (2022)",
+      "metaDescription": "Рейтинг лучших курсов React.js онлайн в 2022 году. Обучение React для начинающих. Лучшие бесплатные и платные онлайн курсы React.js с дипломом и отзывами",
+      "views": 17,
+      "_id": "61feb52a77ddd78615d72f78"
+    }
+  }
+}

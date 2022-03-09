@@ -11,7 +11,7 @@ const firstCategory = 0;
 function Course({ menu, page, products }: CourseProps): JSX.Element {
   return (
     <>
-      {page.alias} hh
+      {page && page.alias} hh
       {products && products.map((m) => <li key={m.title}>{m.title}</li>)}
       {products && products.length}
     </>

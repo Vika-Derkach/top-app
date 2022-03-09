@@ -1,0 +1,329 @@
+{
+  "pageProps": [
+    {
+      "_id": "609e9b587b822877685b08c1",
+      "categories": [
+        "React.js",
+        "Программирование",
+        "Next.js",
+        "TypeScript",
+        "Frontend"
+      ],
+      "tags": [
+        "130 лекций",
+        "Полный пожизненный доступ",
+        "5 ресурсов для скачивания"
+      ],
+      "title": "React + Next.js - с нуля. TypeScript, Hooks, SSR и CSS Grid",
+      "link": "https://www.udemy.com/course/react-nextjs/?couponCode=7B3A798E0FA8579D9BA1",
+      "image": "/uploads/2021-11-17/512x512_0xac120003_16436951851631657843.png",
+      "initialRating": 5,
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Udemy"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Сертификат"
+        },
+        {
+          "name": "Сложность",
+          "value": "Необходимо знание JS, CSS и HTML"
+        },
+        {
+          "name": "Длительность",
+          "value": "19 часов"
+        }
+      ],
+      "oldPrice": 5490,
+      "price": 1090,
+      "credit": 0,
+      "description": "Полный курс по современному Frontend на React и Next.js. Всё от CSS Grid и TypeScript до React Hooks и SSR. Научитесь разрабатывать реальные приложения на NextJS и React, работать с React Hooks, понимать работу SSR, создавать SEO-friendly сайты и многое другое",
+      "advantages": "Обучение не на учебном, а на реальном, существующем проекте. В результате обучения вы получите знания и навыки, которые необходимы frontend разработчику",
+      "createdAt": "2021-05-14T15:46:32.755Z",
+      "updatedAt": "2022-02-22T18:07:00.552Z",
+      "__v": 0,
+      "disAdvantages": "Необходимо знание основ JS, CSS и HTML",
+      "html": "<h3>Чему вы научитесь</h3>\n<ol>\n \t<li>Разрабатывать реальные приложения на NextJS и React</li>\n \t<li>Работать с React Hooks</li>\n \t<li>Понимать работу SSR и создавать SEO-friendly сайтов</li>\n \t<li>Верстать макеты на CSS Grid</li>\n \t<li>Работать с анимацией и библиотекой Framer</li>\n \t<li>Обеспечивать доступности приложения и работать с ARIA атрибутами</li>\n \t<li>Подготавливать ваше приложение к production</li>\n \t<li>Работать с формами, их отправкой и валидацией</li>\n \t<li>Писать на TypeScript</li>\n \t<li>Собирать production проект и настраивать eslint, stylelint и отладку</li>\n</ol>",
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "611d6b3c468b552e262dc533",
+      "categories": ["React.js", "JavaScript", "Программирование"],
+      "tags": ["онлайн-вебинары по вечерам и практические задания"],
+      "title": "React: библиотека фронтенд-разработки №1",
+      "link": "https://go.acstat.com/747438876825c010",
+      "image": "/uploads/2021-08-18/netology_white.png",
+      "characteristics": [
+        {
+          "value": "Нетология",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "Нужно знание js",
+          "name": "Сложность"
+        },
+        {
+          "value": "1.5 месяца",
+          "name": "Длительность"
+        }
+      ],
+      "description": "Создайте более 20 вариантов интерактивных интерфейсов во время обучения. Добавьте React в своё резюме и получите новые карьерные возможности",
+      "initialRating": 5,
+      "price": 14630,
+      "credit": 1463,
+      "oldPrice": 19900,
+      "createdAt": "2021-08-18T20:19:08.208Z",
+      "updatedAt": "2021-11-10T19:10:41.403Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279d71468b5530d32effef",
+      "categories": ["JavaScript", "Node.js", "React.js", "Программирование"],
+      "tags": [
+        "Занятия в группе с преподавателем",
+        "Онлайн-лекции и вебинары",
+        "Видеозаписи занятий"
+      ],
+      "title": "Факультет Fullstack JavaScript",
+      "initialRating": 5,
+      "image": "/uploads/2021-08-26/gb.png",
+      "characteristics": [
+        {
+          "value": "GeekBrains",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "15 месяцев",
+          "name": "Длительность"
+        }
+      ],
+      "price": 134700,
+      "oldPrice": 150000,
+      "credit": 4989,
+      "description": "Освойте с нуля язык программирования JavaScript, чтобы стать Fullstack-разработчиком. Вы научитесь создавать сайты, мобильные приложения и высоконагруженные сервисы.",
+      "link": "https://go.acstat.com/d180f188fdbdc0c0",
+      "createdAt": "2021-08-26T13:56:01.878Z",
+      "updatedAt": "2021-11-10T19:10:11.265Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "611d6b8c468b55dc5c2dc539",
+      "categories": ["React.js", "JavaScript"],
+      "tags": ["10 уроков"],
+      "title": "ReactJS. Базовый курс",
+      "link": "https://go.acstat.com/f23d325145c5fd10",
+      "image": "/uploads/2021-08-18/gb.png",
+      "characteristics": [
+        {
+          "value": "GeekBrains",
+          "name": "Школа"
+        },
+        {
+          "value": "Сертификат",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "1 месяц",
+          "name": "Длительность"
+        }
+      ],
+      "initialRating": 4.9,
+      "description": "На курсе изучается ReactJS – популярная JаvaScript-библиотека для построения пользовательских интерфейсов, которую используют в Instagram, Airbnb, Ebay, Netflix, Yahoo. Студенты отработают новые знания в области профессиональной front-end разработки, научатся применять ReactJS в сочетании с библиотекой Redux. Познакомятся с инструментом для написания back-end части – NodeJS. Создадут и представят готовый программный продукт – собственную социальную сеть.",
+      "price": 13167,
+      "oldPrice": 19100,
+      "credit": 0,
+      "createdAt": "2021-08-18T20:20:28.492Z",
+      "updatedAt": "2021-09-11T15:54:41.489Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "611d6ced468b55c5be2dc56d",
+      "categories": ["React.js", "Программирование"],
+      "tags": [],
+      "title": "React.js Developer",
+      "description": "Самый популярный JS-фреймворк для Frontend-разработки",
+      "image": "/uploads/2021-08-18/otus.png",
+      "initialRating": 4.9,
+      "characteristics": [
+        {
+          "value": "Otus",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "Для опытных",
+          "name": "Сложность"
+        },
+        {
+          "value": "4 месяца",
+          "name": "Длительность"
+        }
+      ],
+      "link": "https://ad.admitad.com/g/kxgx8g2hp0208a90766e72de1a383e/?ulp=https%3A%2F%2Fotus.ru%2Flessons%2Freact%2F",
+      "price": 65000,
+      "oldPrice": 75000,
+      "credit": 0,
+      "createdAt": "2021-08-18T20:26:21.626Z",
+      "updatedAt": "2021-11-10T19:11:09.385Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279cc9468b555e4e2eff96",
+      "categories": [
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "Программирование",
+        "Docker",
+        "NestJS",
+        "TypeScript"
+      ],
+      "tags": ["Вебинары, видеолекции, практические задания"],
+      "title": "Fullstack-разработчик на JavaScript",
+      "image": "/uploads/2021-08-26/netology_white.png",
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Нетология"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Диплом"
+        },
+        {
+          "name": "Сложность",
+          "value": "С нуля"
+        },
+        {
+          "name": "Длительность",
+          "value": "20 месяцев"
+        }
+      ],
+      "price": 118740,
+      "oldPrice": 139000,
+      "credit": 4947,
+      "initialRating": 4.9,
+      "link": "https://go.acstat.com/446b79e8bca631a0",
+      "description": "Научитесь программировать на JavaScript и TypeScript — сможете самостоятельно создавать сайты и веб-приложения. Освоите передовые технологии — React, Node.js, Docker, Express.js, Nest.js, Firebase, MongoDB",
+      "createdAt": "2021-08-26T13:53:13.483Z",
+      "updatedAt": "2022-02-22T17:59:27.906Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "611d6c68468b5509722dc567",
+      "categories": ["React.js", "JavaScript"],
+      "tags": ["Обучение на практике"],
+      "title": "JavaScript-фреймворк React.js",
+      "link": "https://go.acstat.com/273728c89cdfab20",
+      "image": "/uploads/2021-08-18/skillbox.png",
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "3 месяца",
+          "name": "Длительность"
+        }
+      ],
+      "description": "Расширьте свои профессиональные знания и навыки разработчика, научившись использовать в работе фреймворк React.js",
+      "price": 21000,
+      "oldPrice": 28000,
+      "credit": 1750,
+      "initialRating": 4.6,
+      "createdAt": "2021-08-18T20:24:08.807Z",
+      "updatedAt": "2021-09-11T15:54:56.884Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "612792c6468b556f732efbc8",
+      "categories": ["JavaScript", "React.js", "Программирование"],
+      "tags": [
+        "Программа из 12 курсов",
+        "4 проекта в портфолио",
+        "Помощь в трудоустройстве"
+      ],
+      "title": "Профессия Fullstack-разработчик на JavaScript",
+      "image": "/uploads/2021-08-26/skillbox.png",
+      "characteristics": [
+        {
+          "value": "Skillbox",
+          "name": "Школа"
+        },
+        {
+          "value": "Диплом",
+          "name": "Документ об окончании"
+        },
+        {
+          "value": "С нуля",
+          "name": "Сложность"
+        },
+        {
+          "value": "12 месяцев",
+          "name": "Длительность"
+        }
+      ],
+      "price": 145440,
+      "oldPrice": 179000,
+      "credit": 4692,
+      "initialRating": 4.6,
+      "link": "https://go.acstat.com/5f26e043203a5d50",
+      "description": "Вы с нуля научитесь разрабатывать полноценные сайты и веб-приложения на JS и изучите один из фреймворков — Vue, React или Angular. Станете ценным сотрудником для любой IT-компании, поймёте, как получить повышение, и сможете зарабатывать больше.",
+      "createdAt": "2021-08-26T13:10:30.607Z",
+      "updatedAt": "2021-11-10T19:10:52.877Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    }
+  ]
+}

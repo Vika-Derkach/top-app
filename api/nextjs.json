@@ -1,0 +1,36 @@
+{
+  "pageProps": {
+    "_id": "62140e8759b2c7c1f162ae20",
+    "firstCategory": 0,
+    "secondCategory": "Программирование",
+    "alias": "nextjs",
+    "title": "Курсы Next.js",
+    "metaTitle": "ТОП лучших курсов Next.js онлайн | Обучение Next js с нуля (2022)",
+    "metaDescription": "Лучшие курсы Next.js онлайн. Платные и бесплатные онлайн курсы обучения Next.js для начинающих. Отзывы учеников о курсах по Next.js.",
+    "category": "Next.js",
+    "categoryOn": "Next.js",
+    "tagsTitle": "Навыки",
+    "tags": ["Next js"],
+    "blog": {
+      "h1": "Курсы Next.js: обучение с нуля",
+      "metaTitle": "5 Лучших курсов Next.js онлайн | Обучение с нуля (2022)",
+      "metaDescription": "Рейтинг лучших курсов Next.js онлайн в 2022 году. Обучение для начинающих. Лучшие бесплатные и платные онлайн курсы по Next js с сертификатами и отзывами",
+      "views": 8,
+      "_id": "62140e8759b2c7c1f162ae21"
+    },
+    "advantages": [],
+    "qas": [],
+    "addresses": [],
+    "createdAt": "2022-02-21T22:13:27.236Z",
+    "updatedAt": "2022-03-08T00:00:11.174Z",
+    "__v": 0,
+    "hh": {
+      "count": 214,
+      "juniorSalary": 125000,
+      "middleSalary": 290000,
+      "seniorSalary": 455000,
+      "updatedAt": "2022-03-08T00:00:11.173Z",
+      "_id": "62269c8bb9d5b03848897b0b"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "pageProps": [
+    {
+      "_id": "609e9b587b822877685b08c1",
+      "categories": [
+        "React.js",
+        "Программирование",
+        "Next.js",
+        "TypeScript",
+        "Frontend"
+      ],
+      "tags": [
+        "130 лекций",
+        "Полный пожизненный доступ",
+        "5 ресурсов для скачивания"
+      ],
+      "title": "React + Next.js - с нуля. TypeScript, Hooks, SSR и CSS Grid",
+      "link": "https://www.udemy.com/course/react-nextjs/?couponCode=7B3A798E0FA8579D9BA1",
+      "image": "/uploads/2021-11-17/512x512_0xac120003_16436951851631657843.png",
+      "initialRating": 5,
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Udemy"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Сертификат"
+        },
+        {
+          "name": "Сложность",
+          "value": "Необходимо знание JS, CSS и HTML"
+        },
+        {
+          "name": "Длительность",
+          "value": "19 часов"
+        }
+      ],
+      "oldPrice": 5490,
+      "price": 1090,
+      "credit": 0,
+      "description": "Полный курс по современному Frontend на React и Next.js. Всё от CSS Grid и TypeScript до React Hooks и SSR. Научитесь разрабатывать реальные приложения на NextJS и React, работать с React Hooks, понимать работу SSR, создавать SEO-friendly сайты и многое другое",
+      "advantages": "Обучение не на учебном, а на реальном, существующем проекте. В результате обучения вы получите знания и навыки, которые необходимы frontend разработчику",
+      "createdAt": "2021-05-14T15:46:32.755Z",
+      "updatedAt": "2022-02-22T18:07:00.552Z",
+      "__v": 0,
+      "disAdvantages": "Необходимо знание основ JS, CSS и HTML",
+      "html": "<h3>Чему вы научитесь</h3>\n<ol>\n \t<li>Разрабатывать реальные приложения на NextJS и React</li>\n \t<li>Работать с React Hooks</li>\n \t<li>Понимать работу SSR и создавать SEO-friendly сайтов</li>\n \t<li>Верстать макеты на CSS Grid</li>\n \t<li>Работать с анимацией и библиотекой Framer</li>\n \t<li>Обеспечивать доступности приложения и работать с ARIA атрибутами</li>\n \t<li>Подготавливать ваше приложение к production</li>\n \t<li>Работать с формами, их отправкой и валидацией</li>\n \t<li>Писать на TypeScript</li>\n \t<li>Собирать production проект и настраивать eslint, stylelint и отладку</li>\n</ol>",
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "6215250059b2c7c1f1683c3e",
+      "image": "/uploads/2022-02-22/512x512_0xac120003_16436951851631657843.png",
+      "title": "TypeScript с нуля - полный курс и паттерны проектирования",
+      "link": "https://www.udemy.com/course/typescript-full/?couponCode=55B77719D0B077584B42",
+      "initialRating": 5,
+      "price": 1090,
+      "oldPrice": 5490,
+      "credit": 0,
+      "description": "Полный курс по современному TypeScript в 2022 году и ООП паттернам проектирования для создания поддерживаемых приложений",
+      "categories": ["TypeScript"],
+      "tags": [],
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Udemy"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Сертификат"
+        },
+        {
+          "name": "Сложность",
+          "value": "С нуля"
+        },
+        {
+          "name": "Длительность",
+          "value": "18 часов"
+        }
+      ],
+      "html": "<h3>Чему вы научитесь</h3>\n<ol>\n \t<li>Основным и продвинутым типам TypeScript</li>\n \t<li>Работе с классами и интерфейсами</li>\n \t<li>Настройке проекта для работы TypeScript</li>\n \t<li>Написанию TypeGuards</li>\n \t<li>Generics</li>\n \t<li>Conditional Types и Mapped Types</li>\n \t<li>Использованию служебных типов</li>\n \t<li>Работе декораторов</li>\n \t<li>Устройству модульности в TypeScript</li>\n \t<li>Типизации библиотек</li>\n \t<li>Паттернам проектирования в TypeScript</li>\n \t<li>Писать расширяемый и поддерживаемый код на примере проекта</li>\n</ol>",
+      "createdAt": "2022-02-22T18:01:36.144Z",
+      "updatedAt": "2022-02-22T18:01:36.144Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "6215276359b2c7c1f16848d2",
+      "image": "/uploads/2022-02-22/512x512_0xac120003_16436951851631657843.png",
+      "title": "NestJS - с нуля, современный backend на TypeScript и Node JS",
+      "link": "https://www.udemy.com/course/nestjs-backend-typescript-node-js/?couponCode=1DABBE2072E25F6ADEBF",
+      "initialRating": 5,
+      "price": 1090,
+      "oldPrice": 5490,
+      "credit": 0,
+      "description": "Полный курс по современному Backend на NodeJS, TypeScript и MongoDB с использованием лучший практик и фреймворка NestJS!",
+      "categories": ["NestJS", "TypeScript", "Node.js", "Docker"],
+      "tags": [],
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Udemy"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Сертификат"
+        },
+        {
+          "name": "Сложность",
+          "value": "С нуля"
+        },
+        {
+          "name": "Длительность",
+          "value": "11 часов"
+        }
+      ],
+      "html": "<h3>Чему вы научитесь</h3>\n<ol>\n \t<li>Писать на самом быстро растущем framework NestJS, который используют многие крупные кампании</li>\n \t<li>Проектировать современные API, отвечающие лучшим практикам</li>\n \t<li>Работать с MongoDB и выполнять сложные агрегации</li>\n \t<li>Писать backend на NodeJS с чистым кодом, который легко поддерживать</li>\n \t<li>Писать корректно типизированный код на TypeScript</li>\n \t<li>Разрабатывать модуль авторизации и понимать принцип работы JWT</li>\n \t<li>Писать unit и e2e тесты для вашего приложения</li>\n \t<li>Настраивать переменные окружения для работы на develop и production</li>\n \t<li>Использовать cli утилиту NestJS для ускорения разработки</li>\n \t<li>Работать с HTTP протоколом и понимать его тонкости</li>\n \t<li>Работать с Docker и выкладывать приложения на production</li>\n \t<li>Использовать лучшие практики безопасности при работе с паролями</li>\n \t<li>Правильно проводить валидацию данных и использовать DTO</li>\n \t<li>Писать Telegram бота для рассылки уведомлений</li>\n \t<li>Загружать и обрабатывать файлы на API</li>\n \t<li>Интегрировать приложение в внешним API</li>\n</ol>",
+      "createdAt": "2022-02-22T18:11:47.488Z",
+      "updatedAt": "2022-02-22T18:11:47.488Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279cc9468b555e4e2eff96",
+      "categories": [
+        "JavaScript",
+        "React.js",
+        "Node.js",
+        "Программирование",
+        "Docker",
+        "NestJS",
+        "TypeScript"
+      ],
+      "tags": ["Вебинары, видеолекции, практические задания"],
+      "title": "Fullstack-разработчик на JavaScript",
+      "image": "/uploads/2021-08-26/netology_white.png",
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Нетология"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Диплом"
+        },
+        {
+          "name": "Сложность",
+          "value": "С нуля"
+        },
+        {
+          "name": "Длительность",
+          "value": "20 месяцев"
+        }
+      ],
+      "price": 118740,
+      "oldPrice": 139000,
+      "credit": 4947,
+      "initialRating": 4.9,
+      "link": "https://go.acstat.com/446b79e8bca631a0",
+      "description": "Научитесь программировать на JavaScript и TypeScript — сможете самостоятельно создавать сайты и веб-приложения. Освоите передовые технологии — React, Node.js, Docker, Express.js, Nest.js, Firebase, MongoDB",
+      "createdAt": "2021-08-26T13:53:13.483Z",
+      "updatedAt": "2022-02-22T17:59:27.906Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    },
+    {
+      "_id": "61279d15468b5571962eff9d",
+      "categories": ["JavaScript", "Node.js", "Программирование", "TypeScript"],
+      "tags": ["портфолио"],
+      "title": "Backend-разработка на Node.js",
+      "price": 31500,
+      "oldPrice": 38500,
+      "credit": 3150,
+      "image": "/uploads/2021-08-26/netology_white.png",
+      "characteristics": [
+        {
+          "name": "Школа",
+          "value": "Нетология"
+        },
+        {
+          "name": "Документ об окончании",
+          "value": "Диплом"
+        },
+        {
+          "name": "Сложность",
+          "value": "С нуля"
+        },
+        {
+          "name": "Длительность",
+          "value": "5 месяцев"
+        }
+      ],
+      "link": "https://go.acstat.com/6c58c15385585080",
+      "description": "\nСтаньте fullstack-разработчиком, зная только JavaScript. Технология Node.js позволит вам разрабатывать backend для веб-приложений самостоятельно, а язык программирования TypeScript расширит возможности JavaScript для ваших проектов",
+      "initialRating": 4.9,
+      "createdAt": "2021-08-26T13:54:29.491Z",
+      "updatedAt": "2022-02-22T10:07:24.315Z",
+      "__v": 0,
+      "reviews": [],
+      "reviewCount": 0,
+      "reviewAvg": null
+    }
+  ]
+}

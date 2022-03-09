@@ -1,0 +1,36 @@
+{
+  "pageProps": {
+    "_id": "61278184468b551f792ef400",
+    "tags": ["JS"],
+    "firstCategory": 0,
+    "secondCategory": "Программирование",
+    "alias": "js",
+    "title": "Курсы JavaScript",
+    "category": "JavaScript",
+    "metaTitle": "ТОП-15 курсов JavaScript (JS) онлайн | Обучение JavaScript с нуля (2022)",
+    "metaDescription": "Лучшие курсы JavaScript онлайн. Рейтинг курсов по программированию на JavaScript для начинающих. Обучение JS онлайн с нуля . Платные и бесплатные курсы\n",
+    "tagsTitle": "Навыки",
+    "advantages": [],
+    "qas": [],
+    "addresses": [],
+    "createdAt": "2021-08-26T11:56:52.190Z",
+    "updatedAt": "2022-03-09T00:00:05.022Z",
+    "__v": 0,
+    "hh": {
+      "count": 14344,
+      "juniorSalary": 105000,
+      "middleSalary": 305000,
+      "seniorSalary": 505000,
+      "updatedAt": "2022-03-09T00:00:05.021Z",
+      "_id": "6227ee05b9d5b038488e61e9"
+    },
+    "categoryOn": "программиста JavaScript",
+    "blog": {
+      "h1": "Курсы JavaScript: обучение JS с нуля",
+      "metaTitle": "15 Лучших курсов JavaScript онлайн | Обучение JS с нуля (2022)",
+      "metaDescription": "Рейтинг лучших курсов программирования на JavaScript онлайн в 2022 году. Обучение JS для начинающих. Лучшие бесплатные и платные онлайн курсы по JavaScript с дипломом и отзывами\n",
+      "views": 16,
+      "_id": "61feb6aa77ddd78615d73494"
+    }
+  }
+}
