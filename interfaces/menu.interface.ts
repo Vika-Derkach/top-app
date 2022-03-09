@@ -1,3 +1,5 @@
+import { TopLevelCategory } from "./page.interface";
+
 export interface Id {
   secondCategory: string;
 }
@@ -12,6 +14,7 @@ export interface PageItem {
 export interface MenuItem {
   _id: Id;
   pages: PageItem[];
+  isOpened?: boolean;
 }
 
 export interface Domain {
@@ -29,4 +32,11 @@ export interface PageProps {
 export interface RootObject {
   pageProps: PageProps;
   __N_SSG: boolean;
+}
+
+export interface FirstLevelMenuItem {
+  route: string;
+  name: string;
+  icon: JSX.Element;
+  id: TopLevelCategory;
 }
