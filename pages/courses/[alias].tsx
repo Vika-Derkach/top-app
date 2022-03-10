@@ -41,9 +41,6 @@ export const getStaticProps: GetStaticProps<CourseProps> = async ({
   const menu = await api<MenuItem[]>("menu");
   const page = await api<TopPageModal>(`${params.alias}`);
   const products = await api<ProductModel[]>(`${params.alias}-products`);
-  console.log("ffffff1", page, "ddddd");
-  console.log(params.alias, "рукруку");
-  console.log("products11", products, "products");
 
   return {
     props: { menu, firstCategory, page, products },

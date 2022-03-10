@@ -64,7 +64,6 @@ export default withLayout(Home);
 export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const firstCategory = 0;
   const menu = await api<MenuItem[]>("menu");
-  // console.log(menu);
 
   return {
     props: { menu, firstCategory },

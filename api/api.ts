@@ -1,6 +1,5 @@
 export const api = async <T>(path: string): Promise<T> => {
   const data = await import(`./${path}.json`);
-  // console.log(data, "here");
 
   return data.pageProps;
   //   return new Promise((resolve, reject) => {
