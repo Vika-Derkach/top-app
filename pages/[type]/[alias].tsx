@@ -1,12 +1,14 @@
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from "next";
 import { ParsedUrlQuery } from "querystring";
 import { api } from "../../api/api";
+import { firstLevelMenu } from "../../helpers";
 import { MenuItem } from "../../interfaces/menu.interface";
-import { TopPageModal } from "../../interfaces/page.interface";
+import {
+  TopLevelCategory,
+  TopPageModal,
+} from "../../interfaces/page.interface";
 import { ProductModel } from "../../interfaces/product.interface";
 import { withLayout } from "../../layout/Layout";
-
-const firstCategory = 0;
 
 function Course({ menu, page, products }: CourseProps): JSX.Element {
   return (
@@ -21,10 +23,18 @@ function Course({ menu, page, products }: CourseProps): JSX.Element {
 export default withLayout(Course);
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const menu = await api<MenuItem[]>("menu");
+  let paths: string[] = [];
+  for (const m of firstLevelMenu) {
+    const menu = await api<MenuItem[]>("menu");
+
+    paths = paths.concat(
+      menu.flatMap((s) => s.pages.map((p) => `/${m.route}/${p.alias}`))
+    );
+  }
+  console.log(paths);
 
   return {
-    paths: menu.flatMap((m) => m.pages.map((p) => "/courses/" + p.alias)),
+    paths,
     fallback: true,
   };
 };
@@ -38,18 +48,31 @@ export const getStaticProps: GetStaticProps<CourseProps> = async ({
     };
   }
 
-  const menu = await api<MenuItem[]>("menu");
-  const page = await api<TopPageModal>(`${params.alias}`);
-  const products = await api<ProductModel[]>(`${params.alias}-products`);
+  const firstCategoryItem = firstLevelMenu.find((m) => m.route == params.type);
+  if (!firstCategoryItem) {
+    return {
+      notFound: true,
+    };
+  }
 
-  return {
-    props: { menu, firstCategory, page, products },
-  };
+  try {
+    const menu = await api<MenuItem[]>("menu");
+    const page = await api<TopPageModal>(`${params.alias}`);
+    const products = await api<ProductModel[]>(`${params.alias}-products`);
+
+    return {
+      props: { menu, firstCategory: firstCategoryItem.id, page, products },
+    };
+  } catch (error) {
+    return {
+      notFound: true,
+    };
+  }
 };
 
 interface CourseProps extends Record<string, unknown> {
   menu: MenuItem[];
-  firstCategory: number;
+  firstCategory: TopLevelCategory;
   page: TopPageModal;
   products: ProductModel[];
 }
