@@ -1,53 +1,48 @@
-import { GetStaticProps } from "next";
-import React from "react";
+import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from "next";
+import { ParsedUrlQuery } from "querystring";
 import { api } from "../../api/api";
+import { firstLevelMenu } from "../../helpers";
 import { MenuItem } from "../../interfaces/menu.interface";
-import { ProductModel } from "../../interfaces/product.interface";
 import { withLayout } from "../../layout/Layout";
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
+function Type({ firstCategory }: TypeProps): JSX.Element {
+  return <>Type: {firstCategory} </>;
 }
 
-const Courses = ({
-  menu,
-  firstCategory,
-  products,
-}: CoursesProps): JSX.Element => {
-  console.log(getRandomInt(menu[getRandomInt(menu.length)].pages.length));
+export default withLayout(Type);
 
-  return (
-    <>
-      <h2>Courses</h2>
-
-      <p>now ponular: </p>
-      {products && products.map((m) => <li key={m.title}>{m.title}</li>)}
-    </>
-  );
-};
-
-export default withLayout(Courses);
-
-export const getStaticProps: GetStaticProps<CoursesProps> = async () => {
-  const firstCategory = 0;
-  const menu = await api<MenuItem[]>("menu");
-  const randomManuLength = getRandomInt(menu.length);
-
-  const products = await api<ProductModel[]>(
-    `${
-      menu[randomManuLength].pages[
-        getRandomInt(menu[randomManuLength].pages.length)
-      ].alias
-    }-products`
-  );
-
+export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    props: { menu, firstCategory, products },
+    paths: firstLevelMenu.map((m) => "/" + m.route),
+    fallback: true,
   };
 };
 
-interface CoursesProps extends Record<string, unknown> {
+export const getStaticProps: GetStaticProps<TypeProps> = async ({
+  params,
+}: GetStaticPropsContext<ParsedUrlQuery>) => {
+  if (!params) {
+    return {
+      notFound: true,
+    };
+  }
+
+  const firstCategoryItem = firstLevelMenu.find((m) => m.route == params.type);
+  if (!firstCategoryItem) {
+    return {
+      notFound: true,
+    };
+  }
+
+  // const firstCategory = 0;
+  const menu = await api<MenuItem[]>("menu");
+
+  return {
+    props: { menu, firstCategory: firstCategoryItem.id },
+  };
+};
+
+interface TypeProps extends Record<string, unknown> {
   menu: MenuItem[];
   firstCategory: number;
-  products: ProductModel[];
 }

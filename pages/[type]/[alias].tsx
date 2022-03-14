@@ -31,7 +31,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
       menu.flatMap((s) => s.pages.map((p) => `/${m.route}/${p.alias}`))
     );
   }
-  console.log(paths);
 
   return {
     paths,
@@ -59,6 +58,12 @@ export const getStaticProps: GetStaticProps<CourseProps> = async ({
     const menu = await api<MenuItem[]>("menu");
     const page = await api<TopPageModal>(`${params.alias}`);
     const products = await api<ProductModel[]>(`${params.alias}-products`);
+
+    if (menu.length == 0) {
+      return {
+        notFound: true,
+      };
+    }
 
     return {
       props: { menu, firstCategory: firstCategoryItem.id, page, products },
