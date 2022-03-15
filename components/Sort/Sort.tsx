@@ -18,7 +18,7 @@ export const Sort = ({
           [styles.active]: sort == SortEnum.Rating,
         })}
       >
-        <SortIcon className={styles.sortIcon} /> По&nbsp;рейтингу
+        <SortIcon className={styles.sortIcon} /> По рейтингу
       </span>
       <span
         onClick={() => setSort(SortEnum.Price)}
@@ -26,7 +26,7 @@ export const Sort = ({
           [styles.active]: sort == SortEnum.Price,
         })}
       >
-        <SortIcon className={styles.sortIcon} /> По&nbsp;цене
+        <SortIcon className={styles.sortIcon} /> По цене
       </span>
     </div>
   );
