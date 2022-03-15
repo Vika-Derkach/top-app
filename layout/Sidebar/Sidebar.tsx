@@ -1,4 +1,3 @@
-import cn from "classnames";
 import React from "react";
 import Logo from "../logo.svg";
 import { Menu } from "../Menu/Menu";
@@ -7,10 +6,12 @@ import { SidebarProps } from "./Sidebar.props";
 
 export const Sidebar = ({ className, ...props }: SidebarProps): JSX.Element => {
   return (
-    <div className={cn(className, styles.sidebar)} {...props}>
-      <Logo className={styles.logo} />
-      <div>Search</div>
-      <Menu />
+    <div {...props} className={className}>
+      <div className={styles.sidebar}>
+        <Logo className={styles.logo} />
+        <div>Search</div>
+        <Menu />
+      </div>
     </div>
   );
 };
