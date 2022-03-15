@@ -1,0 +1,33 @@
+.advantages {
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	gap: 30px;
+	margin-bottom: 30px;
+}
+
+.tick {
+	display: grid;
+	grid-template-rows: 50px 1fr;
+	gap: 17px;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 17px;
+}
+
+.tick > div {
+	background-color: #D2D2D2;
+	width: 1px;
+	height: 100%;
+	margin: auto;
+}
+
+.content > h3 {
+	margin-bottom: 20px;
+}
+
+@media (max-width: 765px) {
+	.advantages {
+		gap: 10px;
+		padding-left: 10px;
+	}
+}

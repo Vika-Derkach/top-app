@@ -1,5 +1,5 @@
 import React from "react";
-import { HhData, Htag, Tag } from "../../components";
+import { AdvantagesData, HhData, Htag, Tag } from "../../components";
 import { TopLevelCategory } from "../../interfaces/page.interface";
 import styles from "./TopPageComponent.module.css";
 import { TopPageComponentProps } from "./TopPageComponent.props";
@@ -9,6 +9,8 @@ export const TopPageComponent = ({
   products,
   firstCategory,
 }: TopPageComponentProps): JSX.Element => {
+  console.log(page.advantages[0]);
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.title}>
@@ -34,6 +36,8 @@ export const TopPageComponent = ({
         )}
       </div>
       {firstCategory == TopLevelCategory.Courses && <HhData {...page.hh} />}
+      {firstCategory == TopLevelCategory.Courses &&
+        page.advantages.map((a) => <AdvantagesData key={a._id} {...a} />)}
     </div>
   );
 };
