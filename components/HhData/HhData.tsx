@@ -1,4 +1,5 @@
 import React from "react";
+import { RriceUa } from "../../helpers";
 import { Card } from "../Card/Card";
 import styles from "./HhData.module.css";
 import { hhDataProps } from "./HhData.props";
@@ -19,7 +20,7 @@ export const HhData = ({
       <Card className={styles.salary}>
         <div>
           <div className={styles.title}>Junior</div>
-          <div className={styles.salaryValue}>{juniorSalary}</div>
+          <div className={styles.salaryValue}>{RriceUa(juniorSalary)}</div>
           <div className={styles.rate}>
             <RateTcon className={styles.filled} />
             <RateTcon />
@@ -28,7 +29,7 @@ export const HhData = ({
         </div>
         <div>
           <div className={styles.title}>Middle</div>
-          <div className={styles.salaryValue}>{middleSalary}</div>
+          <div className={styles.salaryValue}>{RriceUa(middleSalary)}</div>
           <div className={styles.rate}>
             <RateTcon className={styles.filled} />
             <RateTcon className={styles.filled} />
@@ -37,7 +38,7 @@ export const HhData = ({
         </div>
         <div>
           <div className={styles.title}>Senior</div>
-          <div className={styles.salaryValue}>{seniorSalary}</div>
+          <div className={styles.salaryValue}>{RriceUa(seniorSalary)}</div>
           <div className={styles.rate}>
             <RateTcon className={styles.filled} />
             <RateTcon className={styles.filled} />
