@@ -1,5 +1,6 @@
 import React from "react";
 import { HhData, Htag, Tag } from "../../components";
+import { TopLevelCategory } from "../../interfaces/page.interface";
 import styles from "./TopPageComponent.module.css";
 import { TopPageComponentProps } from "./TopPageComponent.props";
 
@@ -32,7 +33,7 @@ export const TopPageComponent = ({
           </Tag>
         )}
       </div>
-      <HhData {...page.hh} />
+      {firstCategory == TopLevelCategory.Courses && <HhData {...page.hh} />}
     </div>
   );
 };
