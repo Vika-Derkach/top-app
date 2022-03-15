@@ -17,3 +17,26 @@
 	justify-items: left;
 	gap: 20px;
 }
+
+.courseDecscr {
+	margin-bottom: 30px;
+}
+
+.skills {
+	margin-bottom: 50px;
+}
+
+.tag {
+	margin-right: 10px;
+}
+
+@media (max-width: 765px) {
+	.tag {
+		margin-bottom: 5px;
+	}
+
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}

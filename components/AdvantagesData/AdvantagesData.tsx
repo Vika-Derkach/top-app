@@ -8,7 +8,6 @@ import TickTcon from "./tick.svg";
 export const AdvantagesData = ({
   title,
   description,
-  _id,
 }: AdvantagesDataProps): JSX.Element => {
   return (
     <div className={styles.advantages}>
@@ -20,38 +19,6 @@ export const AdvantagesData = ({
         <Htag tag="h3">{title}</Htag>
         <Paragraph size="l">{description}</Paragraph>
       </div>
-      {/* <Card className={styles.count}>
-        <div className={styles.title}>All vacancies</div>
-      </Card>
-      <Card className={styles.salary}>
-        <div>
-          <div className={styles.title}>Junior</div>
-
-          <div className={styles.rate}>
-            <RateTcon className={styles.filled} />
-            <RateTcon />
-            <RateTcon />
-          </div>
-        </div>
-        <div>
-          <div className={styles.title}>Middle</div>
-
-          <div className={styles.rate}>
-            <RateTcon className={styles.filled} />
-            <RateTcon className={styles.filled} />
-            <RateTcon />
-          </div>
-        </div>
-        <div>
-          <div className={styles.title}>Senior</div>
-
-          <div className={styles.rate}>
-            <RateTcon className={styles.filled} />
-            <RateTcon className={styles.filled} />
-            <RateTcon className={styles.filled} />
-          </div>
-        </div>
-      </Card> */}
     </div>
   );
 };
