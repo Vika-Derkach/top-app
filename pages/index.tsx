@@ -1,7 +1,7 @@
 import { GetStaticProps } from "next";
 import { useState } from "react";
 import { api } from "../api/api";
-import { Button, Htag, Paragraph, Rating, Tag } from "../components";
+import { Button, Htag, Input, Paragraph, Rating, Tag } from "../components";
 import { MenuItem } from "../interfaces/menu.interface";
 import { withLayout } from "../layout/Layout";
 
@@ -17,6 +17,7 @@ function Home({ menu, firstCategory }: HomeProps): JSX.Element {
       <Button appearance="ghost" arrow="right">
         jijiji
       </Button>
+      <Input placeholder="nane" />
       <Rating rating={rating} isEditable={true} setRating={setRating} />
       <Paragraph size="l">
         Студенты освоят не только hard skills, необходимые для работы
