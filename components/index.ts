@@ -8,3 +8,4 @@ export * from "./Paragraph/Paragraph";
 export * from "./Rating/Rating";
 export * from "./Sort/Sort";
 export * from "./Tag/Tag";
+export * from "./Textarea/Textarea";
