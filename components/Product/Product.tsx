@@ -5,6 +5,8 @@ import { Tag } from "../Tag/Tag";
 import styles from "./Product.module.css";
 import { ProducthProps } from "./Product.props";
 
+const NEXT_PUBLIC_DOMAIN = "https://courses-top.ru";
+
 export const Product = ({
   product,
 
@@ -14,7 +16,7 @@ export const Product = ({
   return (
     <Card className={styles.product}>
       <div className={styles.logo}>
-        <img src={product.image} alt={product.title} />
+        <img src={NEXT_PUBLIC_DOMAIN + product.image} alt={product.title} />
       </div>
       <div className={styles.title}>{product.title}</div>
       <div className={styles.price}>{product.price}</div>
