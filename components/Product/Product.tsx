@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "../Button/Button";
 import { Card } from "../Card/Card";
 import { Rating } from "../Rating/Rating";
 import { Tag } from "../Tag/Tag";
@@ -33,7 +34,32 @@ export const Product = ({
       </div>
       <div className={styles.priceTitle}>Price</div>
       <div className={styles.creditTitle}>Credit</div>
-      <div className={styles.rateTitle}> {product.reviewCount} reviews </div>
+      <div className={styles.rateTitle}>{product.reviewCount} reviews </div>
+      <div className={styles.hr}>
+        <hr />
+      </div>
+      <div className={styles.description}>{product.description}</div>
+      <div className={styles.feature}>features</div>
+      <div className={styles.advBlock}>
+        <div className={styles.advantages}>
+          <div>Advantages</div>
+          <div>{product.advantages}</div>
+        </div>
+        <div className={styles.disAdvantages}>
+          <div>Disadvantages</div>
+          <div>{product.disAdvantages}</div>
+        </div>
+      </div>
+      <div className={styles.hr}>
+        <hr />
+      </div>
+
+      <div className={styles.actions}>
+        <Button appearance="primary">Read more</Button>
+        <Button appearance="ghost" arrow="right">
+          Read reviews
+        </Button>
+      </div>
     </Card>
   );
 };

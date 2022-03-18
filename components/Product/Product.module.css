@@ -30,3 +30,17 @@
 .rateTitle {
 	grid-column: ratingstart / ratingend;
 }
+
+.hr,
+.description,
+.actions {
+	grid-column: start / ratingend;
+}
+
+.feature {
+	grid-column: start / middle;
+}
+
+.advBlock {
+	grid-column: middle / ratingend;
+}
