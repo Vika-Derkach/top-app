@@ -1,6 +1,8 @@
 import React from "react";
+import { priceUa } from "../../helpers";
 import { Button } from "../Button/Button";
 import { Card } from "../Card/Card";
+import { Devider } from "../Devider/Devider";
 import { Rating } from "../Rating/Rating";
 import { Tag } from "../Tag/Tag";
 import styles from "./Product.module.css";
@@ -20,14 +22,23 @@ export const Product = ({
         <img src={NEXT_PUBLIC_DOMAIN + product.image} alt={product.title} />
       </div>
       <div className={styles.title}>{product.title}</div>
-      <div className={styles.price}>{product.price}</div>
-      <div className={styles.credit}>{product.credit}</div>
+      <div className={styles.price}>
+        {priceUa(product.price)}
+        {product.oldPrice && (
+          <Tag className={styles.oldPrice} color="green">
+            {priceUa(product.price - product.oldPrice)}{" "}
+          </Tag>
+        )}{" "}
+      </div>
+      <div className={styles.credit}>
+        {priceUa(product.credit)} /<span className={styles.month}>мес</span>
+      </div>
       <div className={styles.rating}>
         <Rating rating={product.reviewAvg ?? product.initialRating} />
       </div>
       <div className={styles.tags}>
         {product.categories.map((c) => (
-          <Tag key={c} color="ghost">
+          <Tag className={styles.category} key={c} color="ghost">
             {c}
           </Tag>
         ))}
@@ -35,28 +46,33 @@ export const Product = ({
       <div className={styles.priceTitle}>Price</div>
       <div className={styles.creditTitle}>Credit</div>
       <div className={styles.rateTitle}>{product.reviewCount} reviews </div>
-      <div className={styles.hr}>
-        <hr />
-      </div>
+      <Devider className={styles.hr} />
       <div className={styles.description}>{product.description}</div>
       <div className={styles.feature}>features</div>
       <div className={styles.advBlock}>
-        <div className={styles.advantages}>
-          <div>Advantages</div>
-          <div>{product.advantages}</div>
-        </div>
-        <div className={styles.disAdvantages}>
-          <div>Disadvantages</div>
-          <div>{product.disAdvantages}</div>
-        </div>
+        {product.advantages && (
+          <div className={styles.advantages}>
+            <div className={styles.advTitle}>Advantages</div>
+            <div>{product.advantages}</div>
+          </div>
+        )}
+
+        {product.disAdvantages && (
+          <div className={styles.disadvantages}>
+            <div className={styles.advTitle}>Disadvantages</div>
+            <div>{product.disAdvantages}</div>
+          </div>
+        )}
       </div>
-      <div className={styles.hr}>
-        <hr />
-      </div>
+      <Devider className={styles.hr} />
 
       <div className={styles.actions}>
         <Button appearance="primary">Read more</Button>
-        <Button appearance="ghost" arrow="right">
+        <Button
+          appearance="ghost"
+          arrow="right"
+          className={styles.reviewButton}
+        >
           Read reviews
         </Button>
       </div>

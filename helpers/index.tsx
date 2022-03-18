@@ -33,7 +33,7 @@ export const firstLevelMenu: FirstLevelMenuItem[] = [
   },
 ];
 
-export const RriceUa = (price: number): string =>
+export const priceUa = (price: number): string =>
   price
     .toString()
     .replace(/\B(?=(\d{3})+(?!\d))/g, " ")
