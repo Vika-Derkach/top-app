@@ -1,3 +1,5 @@
+import cn from "classnames";
+import Image from "next/image";
 import React from "react";
 import { declOfNum, priceUa } from "../../helpers";
 import { Button } from "../Button/Button";
@@ -19,7 +21,16 @@ export const Product = ({
   return (
     <Card className={styles.product}>
       <div className={styles.logo}>
-        <img src={NEXT_PUBLIC_DOMAIN + product.image} alt={product.title} />
+        {!NEXT_PUBLIC_DOMAIN ? (
+          <Image
+            src={NEXT_PUBLIC_DOMAIN + product.image}
+            alt={product.title}
+            width={70}
+            height={70}
+          />
+        ) : (
+          <img src={NEXT_PUBLIC_DOMAIN + product.image} alt={product.title} />
+        )}
       </div>
       <div className={styles.title}>{product.title}</div>
       <div className={styles.price}>
@@ -75,7 +86,7 @@ export const Product = ({
           </div>
         )}
       </div>
-      <Devider className={styles.hr} />
+      <Devider className={cn(styles.hr, styles.hr2)} />
 
       <div className={styles.actions}>
         <Button appearance="primary">Read more</Button>
