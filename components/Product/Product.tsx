@@ -1,5 +1,5 @@
 import React from "react";
-import { priceUa } from "../../helpers";
+import { declOfNum, priceUa } from "../../helpers";
 import { Button } from "../Button/Button";
 import { Card } from "../Card/Card";
 import { Devider } from "../Devider/Devider";
@@ -45,10 +45,21 @@ export const Product = ({
       </div>
       <div className={styles.priceTitle}>Price</div>
       <div className={styles.creditTitle}>Credit</div>
-      <div className={styles.rateTitle}>{product.reviewCount} reviews </div>
+      <div className={styles.rateTitle}>
+        {product.reviewCount}{" "}
+        {declOfNum(product.reviewCount, ["отзыв", "отзыва", "отзывов"])}
+      </div>
       <Devider className={styles.hr} />
       <div className={styles.description}>{product.description}</div>
-      <div className={styles.feature}>features</div>
+      <div className={styles.feature}>
+        {product.characteristics.map((c) => (
+          <div className={styles.characteristics} key={c.name}>
+            <span className={styles.characteristicsName}>{c.name}</span>
+            <span className={styles.characteristicsDots}></span>
+            <span className={styles.characteristicsValue}>{c.value}</span>
+          </div>
+        ))}
+      </div>
       <div className={styles.advBlock}>
         {product.advantages && (
           <div className={styles.advantages}>
