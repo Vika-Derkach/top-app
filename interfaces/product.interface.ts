@@ -14,7 +14,7 @@ export interface ReviewModel {
   name: string;
   title: string;
   description: string;
-  reting: number;
+  rating: number;
   createdAt: Date;
 }
 
