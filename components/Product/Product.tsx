@@ -7,6 +7,7 @@ import { Card } from "../Card/Card";
 import { Devider } from "../Devider/Devider";
 import { Rating } from "../Rating/Rating";
 import { Review } from "../Review/Review";
+import { ReviewForm } from "../ReviewForm/ReviewForm";
 import { Tag } from "../Tag/Tag";
 import styles from "./Product.module.css";
 import { ProducthProps } from "./Product.props";
@@ -112,8 +113,12 @@ export const Product = ({
         })}
       >
         {product.reviews.map((r) => (
-          <Review key={r._id} review={r} />
+          <>
+            <Review key={r._id} review={r} />
+            <Devider />
+          </>
         ))}
+        <ReviewForm poductId={product._id} />
       </Card>
     </>
   );
