@@ -70,20 +70,16 @@ export const Rating = forwardRef(
     };
 
     return (
-      <div {...props} className={styles.ratingWrapper}>
-        <div ref={ref}>
-          {ratingArray.map((r, i) => (
-            <span
-              className={cn({
-                [styles.error]: error,
-              })}
-              key={i}
-            >
-              {r}
-            </span>
-          ))}
-        </div>
-
+      <div
+        {...props}
+        ref={ref}
+        className={cn(styles.ratingWrapper, {
+          [styles.error]: error,
+        })}
+      >
+        {ratingArray.map((r, i) => (
+          <span key={i}>{r}</span>
+        ))}
         {error && <span className={styles.errorMessage}>{error.message}</span>}
       </div>
     );
