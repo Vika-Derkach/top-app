@@ -1,5 +1,6 @@
 .textarea {
 	padding: 7px 15px;
+	width: 100%;
 	color: var(--black);
 	border: none;
 	border-radius: 5px;
@@ -19,13 +20,13 @@
 	border: 1px solid var(--red);
 }
 
-.inputWrapper {
+.textareaWrapper {
 	position: relative;
 }
 
 .errorMessage {
 	position: absolute;
-	bottom: -20px;
+	bottom: -15px;
 	left: 0;
 	color: var(--red);
 }
