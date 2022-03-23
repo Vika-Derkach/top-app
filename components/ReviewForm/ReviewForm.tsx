@@ -1,12 +1,13 @@
 import cn from "classnames";
-import React from "react";
+import React, { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
+import { api } from "../../api/api";
 import { Button } from "../Button/Button";
 import { Input } from "../Input/Input";
 import { Rating } from "../Rating/Rating";
 import { Textarea } from "../Textarea/Textarea";
 import CloseIcon from "./close.svg";
-import { IReviewForm } from "./ReviewForm.interface";
+import { IReviewForm, IReviewSentResponce } from "./ReviewForm.interface";
 import styles from "./ReviewForm.module.css";
 import { ReviewFormProps } from "./ReviewForm.props";
 
@@ -20,14 +21,30 @@ export const ReviewForm = ({
     control,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm<IReviewForm>();
 
+  const [isSuccess, setIsSuccess] = useState<boolean>(false);
+  const [error, setError] = useState<string>();
+
   const onSubmit = (formData: IReviewForm) => {
-    // const { formData } = await api<IReviewSentResponce>({
-    //   ...formData,
-    //   productId,
-    // });
-    console.log(formData, productId);
+    try {
+      const { data } = await api<IReviewSentResponce>({
+        ...formData,
+        productId,
+      });
+
+      if (data.message) {
+        setIsSuccess(true);
+        reset();
+      } else {
+        setError("something went wrong");
+      }
+
+      console.log(formData, productId);
+    } catch (e) {
+      setError(e.message);
+    }
   };
 
   return (
@@ -83,11 +100,25 @@ export const ReviewForm = ({
           </span>
         </div>
       </div>
-      <div className={styles.success}>
-        <div className={styles.successTitle}>Ваш отзыв отправлен</div>
-        <div>Спасибо, ваш отзыв будет опубликован после проверки.</div>
-        <CloseIcon className={styles.close} />
-      </div>
+      {isSuccess && (
+        <div className={cn(styles.success, styles.panel)}>
+          <div className={styles.successTitle}>Ваш отзыв отправлен</div>
+          <div>Спасибо, ваш отзыв будет опубликован после проверки.</div>
+          <CloseIcon
+            className={styles.close}
+            onClick={() => setIsSuccess(false)}
+          />
+        </div>
+      )}
+      {error && (
+        <div className={cn(styles.error, styles.panel)}>
+          Что-то пошло не так, попробуйте обновить страницу
+          <CloseIcon
+            className={styles.close}
+            onClick={() => setError(undefined)}
+          />
+        </div>
+      )}
     </form>
   );
 };
