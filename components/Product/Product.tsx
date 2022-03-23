@@ -118,7 +118,7 @@ export const Product = ({
             <Devider />
           </div>
         ))}
-        <ReviewForm poductId={product._id} />
+        <ReviewForm productId={product._id} />
       </Card>
     </>
   );
