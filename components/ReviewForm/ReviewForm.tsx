@@ -1,13 +1,13 @@
 import cn from "classnames";
 import React, { useState } from "react";
 import { Controller, useForm } from "react-hook-form";
-import { api } from "../../api/api";
+import { submit } from "../../api/api";
 import { Button } from "../Button/Button";
 import { Input } from "../Input/Input";
 import { Rating } from "../Rating/Rating";
 import { Textarea } from "../Textarea/Textarea";
 import CloseIcon from "./close.svg";
-import { IReviewForm, IReviewSentResponce } from "./ReviewForm.interface";
+import { IReviewForm } from "./ReviewForm.interface";
 import styles from "./ReviewForm.module.css";
 import { ReviewFormProps } from "./ReviewForm.props";
 
@@ -27,9 +27,9 @@ export const ReviewForm = ({
   const [isSuccess, setIsSuccess] = useState<boolean>(false);
   const [error, setError] = useState<string>();
 
-  const onSubmit = (formData: IReviewForm) => {
+  const onSubmit = async (formData: IReviewForm) => {
     try {
-      const { data } = await api<IReviewSentResponce>({
+      const data = await submit({
         ...formData,
         productId,
       });
