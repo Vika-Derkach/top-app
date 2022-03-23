@@ -25,7 +25,7 @@ export const ReviewForm = ({
   } = useForm<IReviewForm>();
 
   const [isSuccess, setIsSuccess] = useState<boolean>(false);
-  const [error, setError] = useState<string>();
+  const [error, setError] = useState<any>();
 
   const onSubmit = async (formData: IReviewForm) => {
     try {
@@ -43,7 +43,7 @@ export const ReviewForm = ({
 
       console.log(formData, productId);
     } catch (e) {
-      setError(e.message);
+      setError(e);
     }
   };
 
