@@ -48,7 +48,9 @@ export const TopPageComponent = ({
       </div>
       <div>
         {sortedProducts &&
-          sortedProducts.map((p) => <Product key={p.title} product={p} />)}
+          sortedProducts.map((p) => (
+            <Product layout key={p.title} product={p} />
+          ))}
       </div>
       <div className={styles.hhTitle}>
         <Htag tag="h2">Ваканції {page.category} </Htag>
