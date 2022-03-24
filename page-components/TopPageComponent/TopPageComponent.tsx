@@ -8,6 +8,7 @@ import {
   Tag,
 } from "../../components";
 import { SortEnum } from "../../components/Sort/Sort.props";
+import { useScrollY } from "../../hooks/useScrollY";
 import { TopLevelCategory } from "../../interfaces/page.interface";
 import { sortReducer } from "./sort.reducer";
 import styles from "./TopPageComponent.module.css";
@@ -26,6 +27,8 @@ export const TopPageComponent = ({
     }
   );
 
+  const y = useScrollY();
+
   const setSort = (sort: SortEnum) => {
     dispatchSort({ type: sort });
   };
@@ -36,6 +39,7 @@ export const TopPageComponent = ({
 
   return (
     <div className={styles.wrapper}>
+      {y}
       <div className={styles.title}>
         <Htag tag="h1">{page.title} </Htag>
         {products && (
