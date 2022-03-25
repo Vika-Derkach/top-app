@@ -18,8 +18,6 @@ export const api = async <T>(path: string): Promise<T> => {
 export const review = {};
 
 export const submit = async (props: any): Promise<IReviewSentResponce> => {
-  console.log(props);
-
   return new Promise<IReviewSentResponce>((resolve) => {
     setTimeout(() => {
       resolve({ message: "kyky" });

@@ -78,7 +78,6 @@ export const Menu = (): JSX.Element => {
             ) {
               m.isOpened = true;
             }
-            console.log(m.isOpened);
 
             return (
               <div key={m._id.secondCategory}>

@@ -40,8 +40,6 @@ export const ReviewForm = ({
       } else {
         setError("something went wrong");
       }
-
-      console.log(formData, productId);
     } catch (e) {
       setError(e);
     }
