@@ -23,6 +23,7 @@ export const ReviewForm = ({
     handleSubmit,
     formState: { errors },
     reset,
+    clearErrors,
   } = useForm<IReviewForm>();
 
   const [isSuccess, setIsSuccess] = useState<boolean>(false);
@@ -51,27 +52,29 @@ export const ReviewForm = ({
       <div className={cn(styles.reviewForm, className)} {...props}>
         <Input
           {...register("name", {
-            required: { value: true, message: "Type the name" },
+            required: { value: true, message: "Заполните имя" },
           })}
           placeholder="Имя"
           error={errors.name}
           tabIndex={isOpened ? 0 : -1}
+          aria-invalid={errors.name ? true : false}
         />
         <Input
           {...register("title", {
-            required: { value: true, message: "Type the title" },
+            required: { value: true, message: "Заполните заголовок" },
           })}
           className={styles.title}
           placeholder="Заголовок отзыва"
           error={errors.title}
           tabIndex={isOpened ? 0 : -1}
+          aria-invalid={errors.title ? true : false}
         />
         <div className={styles.rating}>
           <span>Оценка:</span>
           <Controller
             control={control}
             name="rating"
-            rules={{ required: { value: true, message: "Put the rating" } }}
+            rules={{ required: { value: true, message: "Укажите рейтинг" } }}
             render={({ field }) => (
               <Rating
                 rating={field.value}
@@ -86,18 +89,21 @@ export const ReviewForm = ({
         </div>
         <Textarea
           {...register("description", {
-            required: { value: true, message: "Type the text" },
+            required: { value: true, message: "Заполните описание" },
           })}
           className={styles.description}
           placeholder="Текст отзыва"
           error={errors.description}
           tabIndex={isOpened ? 0 : -1}
+          aria-label="Текст отзыва"
+          aria-invalid={errors.description ? true : false}
         />
         <div className={styles.submit}>
           <Button
             type="submit"
             appearance="primary"
             tabIndex={isOpened ? 0 : -1}
+            onClick={() => clearErrors()}
           >
             Отправить
           </Button>
@@ -108,22 +114,28 @@ export const ReviewForm = ({
         </div>
       </div>
       {isSuccess && (
-        <div className={cn(styles.success, styles.panel)}>
+        <div role="alert" className={cn(styles.success, styles.panel)}>
           <div className={styles.successTitle}>Ваш отзыв отправлен</div>
           <div>Спасибо, ваш отзыв будет опубликован после проверки.</div>
-          <CloseIcon
+          <button
+            aria-label="Закрить алерт"
             className={styles.close}
             onClick={() => setIsSuccess(false)}
-          />
+          >
+            <CloseIcon />
+          </button>
         </div>
       )}
       {error && (
-        <div className={cn(styles.error, styles.panel)}>
+        <div role="alert" className={cn(styles.error, styles.panel)}>
           Что-то пошло не так, попробуйте обновить страницу
-          <CloseIcon
+          <button
+            aria-label="Закрить алерт"
             className={styles.close}
             onClick={() => setError(undefined)}
-          />
+          >
+            <CloseIcon />
+          </button>
         </div>
       )}
     </form>
