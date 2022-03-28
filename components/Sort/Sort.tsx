@@ -19,21 +19,30 @@ export const Sort = ({
 
   return (
     <div className={cn(styles.sort, className)} {...props}>
+      <div className={styles.sortName} id="sort">
+        Сортировка
+      </div>
       <button
+        id="rating"
         onClick={() => setSort(SortEnum.Rating)}
         className={cn({
           [styles.active]: sort == SortEnum.Rating,
         })}
+        aria-selected={sort == SortEnum.Rating}
+        aria-labelledby="sort rating"
         // onKeyDown={(key: KeyboardEvent) => setSortKey(key, SortEnum.Rating)}
         // tabIndex={0}
       >
         <SortIcon className={styles.sortIcon} /> По рейтингу
       </button>
       <button
+        id="price"
         onClick={() => setSort(SortEnum.Price)}
         className={cn({
           [styles.active]: sort == SortEnum.Price,
         })}
+        aria-selected={sort == SortEnum.Rating}
+        aria-labelledby="sort price"
         // tabIndex={0}
         // onKeyDown={(key: KeyboardEvent) => setSortKey(key, SortEnum.Price)}
       >

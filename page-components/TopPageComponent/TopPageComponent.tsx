@@ -41,10 +41,9 @@ export const TopPageComponent = ({
     <div className={styles.wrapper}>
       {y}
       <div className={styles.title}>
-        <Htag tag="h1">{page.title} </Htag>
+        <Htag tag="h1">{page.title}</Htag>
         {products && (
-          <Tag color="gray" size="m">
-            {" "}
+          <Tag color="gray" size="m" aria-label={products.length + "Елементів"}>
             {products.length}
           </Tag>
         )}
