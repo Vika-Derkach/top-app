@@ -70,18 +70,26 @@ export const Product = motion(
             </div>
             <div className={styles.title}>{product.title}</div>
             <div className={styles.price}>
-              {priceUa(product.price)}
+              <span>
+                <span className="visuallyHidden">Цена</span>
+                {priceUa(product.price)}
+              </span>
               {product.oldPrice && (
                 <Tag className={styles.oldPrice} color="green">
-                  {priceUa(product.price - product.oldPrice)}{" "}
+                  <span className="visuallyHidden">Скидка</span>
+                  {priceUa(product.price - product.oldPrice)}
                 </Tag>
-              )}{" "}
+              )}
             </div>
             <div className={styles.credit}>
+              <span className="visuallyHidden">Кредит</span>
               {priceUa(product.credit)} /
               <span className={styles.month}>мес</span>
             </div>
             <div className={styles.rating}>
+              <span className="visuallyHidden">
+                {"Рейтинг " + (product.reviewAvg ?? product.initialRating)}
+              </span>
               <Rating rating={product.reviewAvg ?? product.initialRating} />
             </div>
             <div className={styles.tags}>
@@ -91,8 +99,12 @@ export const Product = motion(
                 </Tag>
               ))}
             </div>
-            <div className={styles.priceTitle}>Price</div>
-            <div className={styles.creditTitle}>Credit</div>
+            <div className={styles.priceTitle} aria-hidden={true}>
+              Price
+            </div>
+            <div className={styles.creditTitle} aria-hidden={true}>
+              Credit
+            </div>
             <div className={styles.rateTitle}>
               <a href="#ref" onClick={scrollToReview}>
                 {product.reviewCount}{" "}
