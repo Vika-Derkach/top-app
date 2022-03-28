@@ -118,7 +118,7 @@ export const ReviewForm = ({
           <div className={styles.successTitle}>Ваш отзыв отправлен</div>
           <div>Спасибо, ваш отзыв будет опубликован после проверки.</div>
           <button
-            aria-label="Закрить алерт"
+            aria-label="Закрить оповещение"
             className={styles.close}
             onClick={() => setIsSuccess(false)}
           >
@@ -130,7 +130,7 @@ export const ReviewForm = ({
         <div role="alert" className={cn(styles.error, styles.panel)}>
           Что-то пошло не так, попробуйте обновить страницу
           <button
-            aria-label="Закрить алерт"
+            aria-label="Закрить оповещение"
             className={styles.close}
             onClick={() => setError(undefined)}
           >
