@@ -1,3 +1,4 @@
+import { useReducedMotion } from "framer-motion";
 import React, { useEffect, useReducer } from "react";
 import {
   AdvantagesData,
@@ -26,6 +27,7 @@ export const TopPageComponent = ({
       sort: SortEnum.Rating,
     }
   );
+  const shouldReduceMotion = useReducedMotion();
 
   const y = useScrollY();
 
@@ -52,7 +54,12 @@ export const TopPageComponent = ({
       <div role="list">
         {sortedProducts &&
           sortedProducts.map((p) => (
-            <Product role="listitem" layout key={p.title} product={p} />
+            <Product
+              role="listitem"
+              layout={shouldReduceMotion ? false : true}
+              key={p.title}
+              product={p}
+            />
           ))}
       </div>
       <div className={styles.hhTitle}>
