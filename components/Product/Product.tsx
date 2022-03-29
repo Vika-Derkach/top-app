@@ -1,6 +1,5 @@
 import cn from "classnames";
 import { motion } from "framer-motion";
-import Image from "next/image";
 import React, { ForwardedRef, forwardRef, useRef, useState } from "react";
 import { declOfNum, priceUa } from "../../helpers";
 import { Button } from "../Button/Button";
@@ -55,7 +54,7 @@ export const Product = motion(
           <Card className={styles.product}>
             <div className={styles.logo}>
               {!NEXT_PUBLIC_DOMAIN ? (
-                <Image
+                <img
                   src={NEXT_PUBLIC_DOMAIN + product.image}
                   alt={product.title}
                   width={70}
