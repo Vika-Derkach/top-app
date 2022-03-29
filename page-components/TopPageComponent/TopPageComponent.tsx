@@ -41,7 +41,7 @@ export const TopPageComponent = ({
     <div className={styles.wrapper}>
       {y}
       <div className={styles.title}>
-        <Htag tag="h1">{page.title}</Htag>
+        <Htag tag="h1">{page?.title}</Htag>
         {products && (
           <Tag color="gray" size="m" aria-label={products.length + "Елементів"}>
             {products.length}
@@ -49,10 +49,10 @@ export const TopPageComponent = ({
         )}
         <Sort sort={sort} setSort={setSort} />
       </div>
-      <div>
+      <div role="list">
         {sortedProducts &&
           sortedProducts.map((p) => (
-            <Product layout key={p.title} product={p} />
+            <Product role="listitem" layout key={p.title} product={p} />
           ))}
       </div>
       <div className={styles.hhTitle}>
