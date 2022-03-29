@@ -22,6 +22,10 @@ a {
 	position: absolute;
 }
 
+.blockDisplay {
+	    display: block;
+}
+
 :root {
 	--black: #3B434E;
 	--gray-light: #EBEBEB;
